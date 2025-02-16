@@ -57,7 +57,7 @@ function generarNumeroAleatorio() {
 }
 
 function condicionesIniciales() {
-    asignarTextoElemento('h1', 'Juego del número secreto optimizado');
+    asignarTextoElemento('h1', 'Juego del número secreto en desarrollo');
     asignarTextoElemento('p', `Indica un número del 1 al ${maximoIntentos}`);
     numeroAleatorio = generarNumeroAleatorio();
     intentos = 1;
